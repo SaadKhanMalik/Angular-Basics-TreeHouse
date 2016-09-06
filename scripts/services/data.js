@@ -6,7 +6,7 @@ angular.module('todoListApp')
     console.log('this is the helloConsole Service!');
   }
   this.getTodos = function(callback){
-    $http.get('mock/todos.json')
+    $http.get('mock/data.json')
     .then(callback)
   };
 
